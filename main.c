@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 int main() 
 {
   int distance;
   int order_value;
   scanf("%d %d", &distance, &order_value);
-
   if(distance <=0 || order_value <=0){
   printf("INVALID");
   }

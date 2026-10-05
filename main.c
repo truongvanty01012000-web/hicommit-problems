@@ -1,13 +1,25 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   int distance;
-  long long order_value;
+  int order_value;
   scanf("%d %d", &distance, &order_value);
 
   if(distance <=0 || order_value <=0){
-  prinft("INVALID"):
+  printf("INVALID");
   }
-  if(order_value >= 500000 && order_value < 15)
+  if(order_value >= 500000 && order_value < 15){
+  printf("0");
+  }
+  else if(distance >= 1 && distance <= 5){
+  printf("15000");
+  }
+  else if(distance >= 6 && distance <= 15){
+  printf("25000");
+  }
+  else if(distance > 15){
+  printf("40000") 
+  }
   return 0;
 }

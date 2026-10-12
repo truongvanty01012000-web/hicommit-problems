@@ -3,12 +3,12 @@
 int main() 
 {
   int n;
-  scanf (""%d" , &n);
-  if ( n % 2 == 0);{
-    prinf (\nchan);
+  scanf ("%d" , &n);
+  if ( n % 2 == 0){
+    printf ("\nchan");
   }
-  if ( con lai);{
-    prinf (\nle);
+  else {
+    prinf ("\nle");
   }
   return 0;
 }

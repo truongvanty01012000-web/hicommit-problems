@@ -17,7 +17,8 @@ int main()
   printf("25000");
   }
   else if(distance > 15){
-  printf("40000") 
+  printf("40000"); 
   }
   return 0;
-}
+  }
+  

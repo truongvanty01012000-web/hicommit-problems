@@ -7,17 +7,18 @@ int main()
   if(distance <=0 || order_value <=0){
   printf("INVALID");
   }
-  if(order_value >= 500000 && order_value <= 15){
+  if(distance >= 500000 && order_value <= 15){
   printf("0");
   }
-  else if(distance >= 0 && distance <= 5){
+  else if(distance >= 1 && order_value <= 5){
   printf("15000");
   }
-  else if(distance >= 6 && distance <= 15){
+  else if(distance >= 6 && order_value <= 15){
   printf("25000");
   }
-  else if(distance > 15){
+  else if(order_value >= 15){
   printf("40000"); 
   }
   return 0;
   }
+  

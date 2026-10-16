@@ -4,10 +4,10 @@ int main()
   int n;
   scanf ("%d" , &n);
   if ( n % 2 == 0){
-    printf ("\nCHAN");
+    printf ("\nchan");
   }
   else {
-    printf ("\nLE");
+    printf ("\nle");
   }
   return 0;
 }

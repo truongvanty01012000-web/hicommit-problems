@@ -4,16 +4,16 @@ int main()
   int distance;
   int order_value;
   scanf("%d %d", &distance, &order_value);
-  if(distance <=0 || order_value < 0){
+  if(distance <=0 || order_value <=0){
   printf("INVALID");
   }
-  if(order_value >= 500000 && order_value < 15){
+  if(order_value >= 500000 && order_value <= 15){
   printf("0");
   }
   else if(distance >= 0 && distance <= 5){
   printf("15000");
   }
-  else if(distance >= 0 && distance < 15 ){
+  else if(distance >= 6 && distance <= 15){
   printf("25000");
   }
   else if(distance > 15){
@@ -21,4 +21,3 @@ int main()
   }
   return 0;
   }
-  

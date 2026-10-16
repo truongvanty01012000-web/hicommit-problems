@@ -10,7 +10,7 @@ int main()
   if(order_value >= 500000 && order_value <= 15){
   printf("0");
   }
-  else if(distance >= 1 && distance <= 5){
+  else if(distance > 0 && distance <= 5){
   printf("15000");
   }
   else if(distance >= 6 && distance <= 15){

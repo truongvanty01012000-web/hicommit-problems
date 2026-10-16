@@ -5,10 +5,10 @@ int main()
   scanf ("%d", &n);
   if ( n % 2 == 0)
   {
-    printf ("\nchan");
+    printf ("\nCHAN");
   }
   else {
-    printf ("\nle");
+    printf ("\nLE");
   }
   return 0;
 }

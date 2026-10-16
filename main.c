@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() 
 {
   int n;
@@ -8,7 +7,7 @@ int main()
     printf ("\nchan");
   }
   else {
-    prinf ("\nle");
+    printf ("\nle");
   }
   return 0;
 }

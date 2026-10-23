@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int i=w, int a=h, BMI;
-    if((w/h/100)^2, < 18.5)
+  int ("%d","%d",&w,&h;
+  int BMI;
+ printf("w/h/100)^2", &BMI
+    if( BMI < 18.5)
       {
       printf("\nUNDERWEIGHT");}
     else if(18.5 =< BMI < 25 )

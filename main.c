@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  float w,h;
-  scanf("%f","%f",&w,&h)==2 {
+  int w,h;
+  scanf("%f",&w)
+  scanf("%f",&h)
  float BMI= W/100^2
     if( BMI < 18.5f)
       {

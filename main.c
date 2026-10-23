@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int ("%d","%d",&w,&h);
+  int ("%f","%f",&w,&h);
   int BMI;
- float(("w/h/100)^2", &BMI);
+ float("w/h/100)^2", &BMI);
     if( BMI < 18.5)
       {
       printf("\nUNDERWEIGHT");}

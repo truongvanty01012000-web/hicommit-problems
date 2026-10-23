@@ -6,7 +6,7 @@ int main() {
   a = w/((h/100)*(h/100));
     if(a < 18.5){
       printf("\nUNDERWEIGHT");}
-    else if(a < 29.9999 )
+    else if(a < 25 )
       {
       printf("\nNORMAL");}
     else if(a < 30)

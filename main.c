@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 int main() {
-  float a,w,h;
-  scanf("%f","%f",&w,&h)
+ double w,h;
+  float a;
+  scanf("%lf","%lf",&w,&h)
   a = w/((h/100)*(h/100));
-    if(a < 18.5){
-      printf("\nUNDERWEIGHT");}
+    if(a < 18.5)
+      printf("UNDERWEIGHT");
     else if(a < 25 )
-      {
-      printf("\nNORMAL");}
+      
+      printf("NORMAL");
     else if(a < 30)
-      {
-      printf("\OVERWEIGHT");}
-    else if(a > 30){
-      printf("\OBESE");}  
+      
+      printf("OVERWEIGHT");
+  else
+      printf("OBESE");}  
   }
   return 0;
 }

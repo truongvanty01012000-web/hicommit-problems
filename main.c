@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 int main() {
- int a;
- scanf("%d",&a)
+ int code
+ scanf("%d",&code)
+ switch (code){
   case 1;
     printf("XEP_LOAI_XUAT_SAC");
-    break
+    break;
   case 2;
     printf("XEP_LOAI_GIOI");
+     break;
   case 3;
     printf("XEP_LOAI_KHA");
+     break;
    case 4;
     printf("XEP_LOAI_TRUNG-BINH");
+     break;
   default 
     printf("KHONG_HOP_LE")
   }

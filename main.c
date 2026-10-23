@@ -2,18 +2,18 @@
 
 int main() {
  double w,h;
-  float a;
+  float BMI;
   scanf("%lf","%lf",&w,&h)
-  a = w/((h/100)*(h/100));
-    if(a < 18.5)
+  BMI = w/((h/100)*(h/100));
+    if(BMI < 18.5)
       printf("UNDERWEIGHT");
-    else if(a < 25 )
+    else if(BMI < 25 )
       
       printf("NORMAL");
-    else if(a < 30)
+    else if(BMI < 30)
       
       printf("OVERWEIGHT");
-  else
+   else
       printf("OBESE");}  
   }
   return 0;

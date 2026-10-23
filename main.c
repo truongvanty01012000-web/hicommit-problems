@@ -3,12 +3,10 @@
 int main() {
   float a,w,h;
   scanf("%f","%f",&w,&h)
- float BMI
   a = w/((h/100)*(h/100));
-    if(a < 18.5)
-      {
+    if(a < 18.5){
       printf("\nUNDERWEIGHT");}
-    else if(a < 20.5 )
+    else if(a < 29.9999 )
       {
       printf("\nNORMAL");}
     else if(a < 30)

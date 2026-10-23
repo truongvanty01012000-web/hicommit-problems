@@ -2,7 +2,7 @@
 
 int main() {
  int n;
-if scanf("%d",&n)==1 {
+if (scanf("%d",&n)==1) {
  switch (n){
   case 1:
     printf("XEP_LOAI_XUAT_SAC\n");

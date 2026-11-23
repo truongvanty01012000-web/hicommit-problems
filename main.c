@@ -1,31 +1,35 @@
 #include <stdio.h>
-int main()
-{
-  int d,m,n,y;
-  scanf("%d%d%d", &d &m &y);
-  if( m<=1 || m>=12)
-  {
-    printf("VALIN");
-  }
-  else if(y <= 0 )
-    {
-    printf("INVALID");
-  }
-  else{
-   if (m==1 || m==3 || m==5 || m==7 || m==8 || m==10 || m=12)
-      n=31;
-   else if ( m==4|| m==6 || m==9 || m==11)
-      n=30; 
-   else if ( m==2)
-   {
-     if(y%400 == 0 || y%4 == 0 && (y%4 100 != 0))
-     n= 29;
-     else 
-     n= 28;
-   }
-if (d >= 1&& d<= n)
-  printf ( VALIN);
-else
-  printf (INVALIN);
-  return 0;
+
+int main() {
+    int d, m, y, max = 0;
+    scanf("%d%d%d", &d, &m, &y);
+
+    if (y <= 0 || m < 1 || m > 12 || d < 1) {
+        printf("INVALID");
+    }
+    else if (m == 2) {
+        if (y % 400 == 0 || (y % 4 == 0 && y % 100 != 0))
+            max = 29;
+        else
+            max = 28;
+
+        if (d <= max)
+            printf("VALID");
+        else
+            printf("INVALID");
+    }
+    else if (m == 4 || m == 6 || m == 9 || m == 11) {
+        if (d <= 30)
+            printf("VALID");
+        else
+            printf("INVALID");
+    }
+    else {
+        if (d <= 31)
+            printf("VALID");
+        else
+            printf("INVALID");
+    }
+
+    return 0;
 }

@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main() 
 {
-  double d;
-  double tien;
-  scanf("%lf %lf", &d, &tien);
+  double d, tien;
+  scanf("%lf %d");
   if( d <= 1 ){
   printf("\ntien, d*15000");
   }

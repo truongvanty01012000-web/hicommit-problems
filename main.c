@@ -2,19 +2,19 @@
 int main() 
 {
   double d, t;
-  scanf("%lf, %d");
+  scanf("%lf, &d");
   if( d <= 1 )
   {
-  t= d * 15000;
+   t = d * 15000;
   }
   else if( d <= 5)
   {
-  t= 15000+(d-1)*13000;
+   t = 15000 + (d-1)*13000;
   }
   else
   {
-  t= 15000 + 4*13000+(d-5)*11000;
+    t= 15000 + 4 * 13000 + (d-5) * 11000;
   }
-  printf("%d",(int)t);
+  printf("%d", (int)t);
   return 0;
 }

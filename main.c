@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-  int d,m,n,y ;
+  int d,m,n,y;
   scanf("%d%d%d", &d &m &n &y);
   if( m<1 && m>12)
   {
-    printf("VALIN")
+    printf("VALIN");
   }
   else (y <= 0 )
-  {
-    printf("INVALID")
+    {
+    printf("INVALID");
   }
   else 
    if (m==1 || m==3 || m==5 || m==7 || m==8 || m==10 || m=12)
@@ -26,6 +26,6 @@ int main()
 if (d >= 1&& d<= n)
   printf ( VALIN);
 else
-  printf ( INVALIN );
+  printf (INVALIN);
   return 0;
 }

@@ -3,7 +3,7 @@ int main()
 {
   int d,m,n,y;
   scanf("%d%d%d", &d &m &y);
-  if( m<1 || m>12)
+  if( m<=1 || m>=12)
   {
     printf("VALIN");
   }

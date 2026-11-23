@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main() 
 {
-  double d, tien;
+  double d, t;
   scanf("%lf, %d");
   if( d <= 1 ){
-  tien= d*15000;
+  t= d*15000;
   }
   else if( d <= 5){
-  tien= 1*15000+(d-1)*13000;
+  t= 1*15000+(d-1)*13000;
   }
-  else 
+  else(
   {
-  tien= 1*15000+4*13000+(d-5)*11000";
+  t= 1*15000+4*13000+(d-5)*11000";
   }
-  printf (%0.lf,tien);
+  printf("%0.lf",t);
   return 0;
 }

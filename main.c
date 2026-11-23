@@ -3,16 +3,18 @@ int main()
 {
   double d, t;
   scanf("%lf, %d");
-  if( d <= 1 );{
+  if( d <= 1 )
+  {
   t= d*15000
   }
-  else if( d <= 5);{
-  t= 1*15000+(d-1)*13000
-  }
-  else(
+  else if( d <= 5)
   {
-  t= 1*15000+4*13000+(d-5)*11000
+  t= 15000+(d-1)*13000
   }
-  printf("%0.lf",t);
+  else
+  {
+  t= 15000 + 4*13000+(d-5)*11000
+  }
+  printf("%d",(int)t);
   return 0;
 }

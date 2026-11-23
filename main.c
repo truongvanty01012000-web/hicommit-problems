@@ -3,7 +3,7 @@
  int abs;
   scanf("%d %d %d",&abs &gpa, &min);
   if(abs > 3){
-    printf("FAIL_ATTENDANCE")
+    printf("FAIL_ATTENDANCE");
   }
   if(gpa >= 8.0 || min >= 7.0){
     printf("EXCELLENT");

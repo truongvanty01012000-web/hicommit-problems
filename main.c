@@ -2,7 +2,7 @@
 int main() 
 {
   double d, t;
-  scanf("%lf, &d");
+  scanf("%lf", &d);
   if( d <= 1 )
   {
    t = d * 15000;
@@ -13,8 +13,8 @@ int main()
   }
   else
   {
-    t= 15000 + 4 * 13000 + (d-5) * 11000;
+    t = 15000 + 4 * 13000 + (d - 5) * 11000;
   }
-  printf("%d", (int)t);
+  printf("%ld", (long int)t);
   return 0;
 }

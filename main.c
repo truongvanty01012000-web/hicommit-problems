@@ -1,14 +1,13 @@
 #include <stdio.h>
-
 int main() {
     double gpa, min;
     int abs;
     if (scanf("%d %lf %lf", &abs, &gpa, &min) != 3) {
         return 0;
     }
-    if (attendance > 3) {
+    if (abs > 3) {
         printf("FAIL_ATTENDANCE");
-        return 0;  // Kết thúc sớm nếu điểm danh kém
+        return 0;  
     }
 
     if (gpa >= 8.0 && min >= 7.0) {

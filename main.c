@@ -1,6 +1,7 @@
-#include <stdio.h>  
- int main()
- double gpa, min;
+#include <stdio.h>
+int main()
+{
+double gpa, min;
  int abs;
   scanf("%d %d %d",&abs &gpa, &min);
   if(abs > 3){

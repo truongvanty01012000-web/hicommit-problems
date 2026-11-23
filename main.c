@@ -9,7 +9,6 @@ int main() {
         printf("FAIL_ATTENDANCE");
         return 0;  
     }
-
     if (gpa >= 8.0 && min >= 7.0) {
         printf("EXCELLENT");
     } else if (min < 4.0) {

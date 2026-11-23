@@ -5,11 +5,11 @@ int main()
   scanf("%d%d%d", &d &m &n &y);
   if( m<1 && m>12)
   {
-    printf("ngay khong hop le")
+    printf("VALIN")
   }
   else (y <= 0 )
   {
-    printf("ngay khong hop le")
+    printf("INVALID")
   }
   else 
    if (m==1 || m==3 || m==5 || m==7 || m==8 || m==10 || m=12)
@@ -24,8 +24,8 @@ int main()
      n= 28;
    }
 if (d >= 1&& d<= n)
-  printf ( ngay hop le);
+  printf ( VALIN);
 else
-  printf ( ngay khong hop le);
+  printf ( INVALIN );
   return 0;
 }

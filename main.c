@@ -1,11 +1,16 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
+int main() 
+{
+  double d;
+  double tien;
+  scanf("%d %d", &d, &tien);
+  if( d <= 1 ){
+  printf("\ntien %d, d*15000");
+  else if( d <= 5){
+  printf("\ntien %d, 1*15000+(d-1)*13000);
+  }
+  else if( d > 5 ){
+  printf("\ntien %d, 1*15000+4*13000+(d-5)*11000");
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  return 0;
 }
